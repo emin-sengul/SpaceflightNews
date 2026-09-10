@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+.kotlin/
+build/
+captures/
+local.properties
+
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+.DS_Store
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+_update-*.zip
