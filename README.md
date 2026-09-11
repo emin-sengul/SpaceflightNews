@@ -1,8 +1,19 @@
 # Spaceflight News
 
+[![CI](https://github.com/emin-sengul/SpaceflightNews/actions/workflows/ci.yml/badge.svg)](https://github.com/emin-sengul/SpaceflightNews/actions/workflows/ci.yml)
+
+**English** · [Türkçe](README.tr.md)
+
 A Kotlin Multiplatform app that reads the [Spaceflight News API](https://api.spaceflightnewsapi.net/v4/docs/).
 Android and iOS share everything — data, domain, and the Compose Multiplatform UI. Each platform
 contributes only its entry point and a handful of `actual` declarations.
+
+<p align="center">
+  <img src="docs/ios-feed.png" width="300" alt="The feed running on the iOS simulator">
+</p>
+
+<p align="center"><em>Running on iOS. This screenshot is taken by CI: a macOS runner builds the
+Xcode project, installs the app on a simulator, launches it and captures the screen.</em></p>
 
 ## What it does
 
